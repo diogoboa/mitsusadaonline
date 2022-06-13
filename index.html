@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel = "shortcut icon" type = "imagem/x-icon" href = "imagens/icon_logo.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E. E. Dr. Mitsusada Umetani</title>
+
+    <script src="js/moment.js" type="text/javascript"></script>
+    
+    <script>
+        const data_atual = (moment().format('DDMMYYYYhhmmss')).toString();
+    </script>
+      <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+    
+
+      <!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/sweetalert2.min.js" type="text/javascript"></script>
+    
+
+    <script>document.write('<link href="css/menu.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<link href="css/global.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<script src="js/menu.js?v=' +data_atual + '"><\/script>');</script>
+    <script>document.write('<script src="js/util.js?v=' +data_atual + '"><\/script>');</script>
+
+    
+    <script>
+        
+    </script>
+    
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      a {text-decoration: none;}
+      
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      @media screen and (min-width: 1px) and (max-width: 600px){
+        #img_carousel_01_medium{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_01_large{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_medium{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_large{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_medium{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_large{
+          display: none;
+          visibility: hidden;
+        }
+      }
+
+      @media screen and (min-width: 600px) and (max-width: 1200px){
+        #img_carousel_01_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_01_large{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_large{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_large{
+          display: none;
+          visibility: hidden;
+        }
+      }
+
+      @media screen and (min-width: 1200px) and (max-width:2000px){
+        #img_carousel_01_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_01_medium{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_02_medium{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_small{
+          display: none;
+          visibility: hidden;
+        }
+        #img_carousel_03_medium{
+          display: none;
+          visibility: hidden;
+        }
+      }
+    </style>
+    
+  </head>
+  <body class="animate__animated animate__fadeInDownBig">
+    
+      
+      
+    <header>
+
+      <div id="navbar">  
+      </div>
+       <script>
+         document.getElementById('navbar').innerHTML = retornar_navbar();
+       </script>
+        
+    </header>   
+    
+
+    
+    <div class="div_fundo">
+        
+    </div>
+    
+<main>
+
+  <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+        <rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="imagens/img_carousel1_small.jpg?v=" id="img_carousel_01_small" class="d-block w-100" alt="first slide">
+        <img src="imagens/img_carousel1_medium.jpg" id="img_carousel_01_medium" class="d-block w-100" alt="first slide">
+        <img src="imagens/img_carousel1_large.jpg?v="  id="img_carousel_01_large" class="d-block w-100" alt="first slide">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Conheça a nossa escola!</h1>
+            <p>Veja aqui a história e origem do nome</p>
+            <p><a class="btn btn-lg btn-primary" href="historia_nome.html">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="imagens/img_carousel2_small.jpeg?=" id="img_carousel_02_small" class="d-block w-100" alt="second slide">
+        <img src="imagens/img_carousel2_medium.jpeg?=" id="img_carousel_02_medium" class="d-block w-100" alt="second slide">
+        <img src="imagens/img_carousel2_large.jpeg?=" id="img_carousel_02_large" class="d-block w-100" alt="second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Pátio de nossa escola</h1>
+            <p>Acesse mais fotos em nossa galeria e conheça melhor esse espaço</p>
+            <p><a class="btn btn-lg btn-primary" href="fotos.html">Ver fotos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="imagens/img_carousel3_small.jpeg?=" id="img_carousel_03_small" class="d-block w-100" alt="third slide">
+        <img src="imagens/img_carousel3_medium.png" id="img_carousel_03_medium" class="d-block w-100" alt="third slide">
+        <img src="imagens/img_carousel3_large.png" id="img_carousel_03_large" class="d-block w-100" alt="third slide">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Uma visitante especial</h1>
+            <p>Ararinha Duda faz visitas frequentes à escola</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=QSTC5Rwwh4E">Ver reportagem</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="imagens/img_gestores.jpeg?=" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>Gestores</h2>
+        <p>Sobre os gestores pedagógicos da nossa escola.</p>
+        <p><a class="btn btn-secondary" style="background-color: #06357a;" href="gestores.html">Ver detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="imagens/img_professores.jpeg?=" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>Professores</h2>
+        <p>Sobre os nossos professores.</p>
+        <p><a class="btn btn-secondary" style="background-color: #06357a;" href="professores.html">Ver detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="imagens/img_colaboradores.jpg?v=" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2>+Funcionários</h2>
+        <p>Sobre os funcionários que contribuem para um ambiente melhor.</p>
+        <p><a class="btn btn-secondary" style="background-color: #06357a;" href="funcionarios.html">Ver detalhes &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" >Conheça o ilustre Doutor Mitsusada Umetani, <i style="color: darkred;">nome querido de nossa escola.</i></h2>
+        <a class="lead" href="historia_nome.html">Mitususada Umetani, ex-governador da província japonesa de Nagano e diretor-gerente da BRATAC.</a>
+      </div>
+      <div class="col-md-5">
+        <img src="imagens/img_dr_mitsusada.jpg?v=1" alt="mitsusada" width="500" height="500">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Encontre todas as respostas para as suas dúvidas na nossa <span style="color: rgb(74, 100, 212);">central de perguntas: </span>FAQ.</h2>
+        <a class="lead" href="FAQ.html";">Acesse a página e veja as dúvidas mais frequentes de nossos usuários.</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="imagens/faq_index.png" alt="faq" width="500" height="500"> 
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Como ocorreu a integração do curso: <span style="color: rgb(74, 100, 212);">Informática para internet </span>na escola.</h2>
+        <a class="lead" href="historia_base_tecnica.html" >Veja a história dessa parceria com o Centro Paula Souza.</a>
+      </div>
+      <div class="col-md-5">
+        <img src="imagens/img_novotec.jpg" alt="novotec" width="500" height="500">
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </div>
+
+  <div id="rodape">
+  </div>
+  <script>
+    document.getElementById('rodape').innerHTML = retornar_rodape();
+  </script>
+  </main>
+  </body>
+</html>

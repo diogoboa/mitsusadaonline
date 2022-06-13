@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "shortcut icon" type = "imagem/x-icon" href = "imagens/icon_logo.ico">
+        <title>E. E. Dr. Mitsusada Umetani - Professores</title>
+
+        <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+
+    <!-- scripts -->
+    <script src="js/menu.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/sweetalert2.min.js" type="text/javascript"></script>
+
+    <script>document.write('<link href="css/menu.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<link href="css/global.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<script src="js/menu.js?v=' +data_atual + '"><\/script>');</script>
+
+    </head>
+    <body class="animate__animated animate__fadeInDownBig">
+
+        <div id="navbar">
+        </div>
+
+        <div class="div_fundo">
+        </div>
+
+         <script>
+           document.getElementById('navbar').innerHTML = retornar_navbar();
+         </script>
+
+        <section class="jumbotron text-center">
+            <div class="container">
+            <h1 class="jumbotron-heading">Professores</h1>
+            <p class="lead text-muted">Profissionais da Tecnologia</p>
+            
+            </div>
+        </section>
+
+        <div class="album py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                          <img class="card-img-top" src="imagens/prof_tec1.png" alt="imagem">
+                          <div class="card-body">
+                            <p class="card-text"><b>Diogo Boaventura Fonseca</b><br>Idade: 27 anos<br>Matéria de formação: Ciências da Computação<br>Tempo de profissão exercido: 04 anos</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="rodape">
+        </div>
+        <script>
+        document.getElementById('rodape').innerHTML = retornar_rodape();
+        </script>
+
+    </body>
+</html>

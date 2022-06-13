@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" type="imagem/x-icon" href="imagens/icon_logo.ico">
+        <title>FAQ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+             <!-- css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link href="css/global.css" rel="stylesheet" type="text/css"/>
+        <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+	      <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+        <!-- scripts -->
+        <script src="js/menu.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/sweetalert2.min.js" type="text/javascript"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+        <script>document.write('<link href="css/menu.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+        <script>document.write('<link href="css/global.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+        <script>document.write('<script src="js/menu.js?v=' +data_atual + '"><\/script>');</script>
+        
+        
+        <style>
+        .pergunta:hover{
+          background-color: #4FC3F7;
+        }
+        .container01{
+          background-color: #0d6efd;
+        }
+      </style>
+        
+    </head>
+    
+    <body class="Div_Container animate__animated animate__fadeInDownBig">
+      
+      <div class="div_fundo">
+      </div>
+        
+      <div id="navbar">  
+      </div>
+       <script>
+         document.getElementById('navbar').innerHTML = retornar_navbar();
+       </script>
+       
+       
+        <center>
+         <img src="imagens/img_FAQ.png" style="margin-top:20px;">
+        </center>
+       
+      <div class="row justify-content-md-center" style="margin-top:30px; margin-bottom: 40px; ">
+        
+            <center>
+                <h1 style="text-align: center; font-family:cambria; color:blue; margin-bottom: 40px; ">
+                    <b>Perguntas frequentes</b>
+                </h1>
+            </center>
+        
+        
+                <div id="accordion" class="col-md-8">
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_01" aria-expanded="true" aria-controls="item_01">
+                            A escola conta com quais ensinos?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_01" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                          Ensino médio, Ensino fundamental - Anos finais, Ensino médio - Supletivo e Ensino fundamental - Supletivo.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_02" aria-expanded="true" aria-controls="item_02">
+                            Quais são as disciplinas da base comum?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_02" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                          Ensino fundamental: Arte, Ciências, Educação física, Eletivas, Geografia, História, Língua inglesa, Língua Portuguesa, Matemática, Projeto de vida e Tecnologia. 
+                          <br>Ensino médio: Arte, Biologia, Educação física, Eletivas, Filosofia, Física, Geografia, História, Língua inglesa, Língua Portuguesa, Matemática, Projeto de vida, Química, Sociologia e Tecnologia.
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_03" aria-expanded="true" aria-controls="item_03">
+                            Quais são as disciplinas da base técnica?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_03" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                          1ªSérie: Arte Digital; Fundamentos da Informática; Interfaces Web I; Programação e Algoritmos.
+			                    <br>2ªSérie: Banco de Dados; Desenvolvimento para Dispositivos Móveis I; Gestão de Conteúdo Web I; Interfaces Web II; Sistemas Web I; Usabilidade e Design de Interação 
+                          <br>3ªSérie: Acessibilidade Digital; Desenvolvimento para Dispositivos Móveis II; Gestão de Conteúdo Web II; Interfaces Web III; Planejamento e Desenvolvimento do Trabalho de Conclusão de Curso (TCC) em Informática para Internet (divisão de classes em turmas); Segurança da Informação; Sistemas Web II.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_04" aria-expanded="true" aria-controls="item_04">
+                            Onde acesso o boletim escolar?
+                          </button>
+                        </h5>
+                      </div>
+
+                    <div id="item_04" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                          O boletim escolar é encontrado na Secretaria Escolar Digital(SED). Acesse o site e veja o seu boletim <a href="https://sed.educacao.sp.gov.br/boletim/boletimescolar">aqui</a>.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_05" aria-expanded="true" aria-controls="item_05">
+                            Como me inscrevo para cursar o técnico?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_05" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            As vagas para o curso técnico nessa escola são disponibilizadas por meio de um sorteio. Vá até a secretaria da escola ou ligue. 
+                            <br>Essas informações se encontram na página <a href="contato.html">contato</a>.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_06" aria-expanded="true" aria-controls="item_06">
+                            Como faço para me inscrever em outro curso?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_06" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            Os cursos são disponibilizados pela Etec de Ilha Solteira - SP. <a href="https://www.etecilhasolteira.com.br/">Acesse o site e saiba mais</a>. 
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_07" aria-expanded="true" aria-controls="item_07">
+                            Como baixar o Office 365 Etec?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_07" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            1º passo: Acesse o link <a href="http://www.etec.sp.gov.br">http://www.etec.sp.gov.br</a> e selecione o Office 365 Pro Plus. 
+			                      <br>2º passo: Basta inserir o seu e-mail e baixar o Office. 
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_08" aria-expanded="true" aria-controls="item_08">
+                            Como acessar a Loja de Softwares da Etec?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_08" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            Acesse o link <a href="http://www.etec.sp.gov.br">http://www.etec.sp.gov.br</a> e selecione a Loja de Softwares. 
+			                      <br>Basta inserir o seu e-mail. 
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_09" aria-expanded="true" aria-controls="item_09">
+                            Como acesso as Sequências Digitais e as Avaliações Externas?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_09" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            1° passo: Acesse o site da <a href="https://sed.educacao.sp.gov.br/">Secretaria Escolar Digital</a>. 
+			                      <br>2° passo: Insira o Nome de Usuário e Senha.
+ 			                      <br>3° passo: No menu você acessará respectivamente > Pedagógico > Plataforma Caed > Avaliações e sequências digitais.
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_10" aria-expanded="true" aria-controls="item_10">
+                            Como faço login na SED?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_10" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            Assista esse vídeo explicativo de <a href="https://www.youtube.com/watch?v=jcr6ZWXyK88">como fazer login na Secretaria Escolar Digital</a>.
+                        </div>
+                      </div>
+                    </div>
+
+		                <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_11" aria-expanded="true" aria-controls="item_11">
+                            Onde consulto meu RA?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div id="item_11" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                            A consulta de RA está disponível na SED. Basta acessar o link abaixo e preencher os campos com os dados solicitados: <a href="https://sed.educacao.sp.gov.br/NCA/CadastroAluno/ConsultaRAAluno">https://sed.educacao.sp.gov.br/NCA/CadastroAluno/ConsultaRAAluno</a>.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header container01 pergunta">
+                        <h5 class="mb-0 ">
+                          <button class="btn text-white " data-toggle="collapse" data-target="#item_12" aria-expanded="true" aria-controls="item_12">
+                            Onde acesso o NSA para ver o boletim?
+                          </button>
+                        </h5>
+                      </div>
+    
+                      <div id="item_12" class="collapse"  data-parent="#accordion">
+                        <div class="card-body">
+                          Para acessar o NSA e ver o seu boletim e muitas outras coisas <a href="https://nsa.cps.sp.gov.br">clique aqui.</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>  
+            </div>
+
+        <div id="rodape">
+        </div>
+        <script>
+          document.getElementById('rodape').innerHTML = retornar_rodape();
+        </script>
+    </body>
+</html>

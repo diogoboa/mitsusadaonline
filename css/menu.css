@@ -1,0 +1,52 @@
+.nav_bar_completa{
+    background-image: url('imagens/logo_pereira_barreto');
+}
+nav.navbar {
+    
+    background-image: linear-gradient(to top, #06357a , #3073d8);
+    
+}
+
+.navbar-brand{
+    padding-left: 25px;
+    color: white;
+}
+
+.nav-item{
+    padding-left: 10px;
+    color: white;
+}
+
+.nav-item:hover  {
+    background-color: rgb(15, 98, 175);
+    border-left:  8px solid white;
+}
+
+.dropdown-item:hover  {
+    color: blue;
+    background-color: #e9ecef;
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+    }
+    .dropdown-submenu {
+        position:relative;
+    }
+    .dropdown-submenu>.dropdown-menu {
+        top:0;
+        left:100%;
+        margin-top:-6px;
+    }
+    .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(26, 26, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .custom-toggler.navbar-toggler {
+    border-color: rgba(26, 26, 0, 0.7);
+    }
+    .nav-link:hover{color: white;}
+    .navbar-brand:hover{color: white;}
+    

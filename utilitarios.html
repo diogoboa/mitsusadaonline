@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="shortcut icon" type="imagem/x-icon" href="imagens/icon_logo.ico">
+        <title>Utilitários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="js/moment.js" type="text/javascript"></script>
+    
+    <script>
+        const data_atual = (moment().format('DDMMYYYYhhmmss')).toString();
+    </script>
+      <!-- css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/carousel.css" rel="stylesheet" type="text/css"/>
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+    
+
+      <!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/sweetalert2.min.js" type="text/javascript"></script>
+    
+
+    <script>document.write('<link href="css/menu.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<link href="css/global.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<script src="js/menu.js?v=' +data_atual + '"><\/script>');</script>
+    <script>document.write('<script src="js/util.js?v=' +data_atual + '"><\/script>');</script>
+        
+    </head>
+
+    <body class="Div_Container animate__animated animate__fadeInDownBig">
+
+       <style>
+        #title{
+          font-family: Courier Times;
+          color: blue;
+        }
+  	    a {text-decoration:none;}
+
+        .container{
+        border: 2px solid blue;
+        border-radius: 25px; 
+        background-color: white; 
+        max-width: 1200px;
+        margin-bottom: 80px;
+        margin-top: 20px;
+        }
+       </style>
+        <div id="navbar">
+        </div>
+
+        <div class="div_fundo">
+        </div>
+        
+        <script>
+          document.getElementById('navbar').innerHTML = retornar_navbar();
+        </script>
+
+	  <div class="animate__animated animate__fadeInDown">
+  
+      <center>
+          <img src="imagens/img_utilitarios.png" style="height: 200px;">
+          <h1 id="title">PROGRAMAS UTILIZADOS NO CURSO</h1>   
+      </center>
+     
+    <main role="main">
+        <div class="container">
+        <div class="row justify-content-md-center" >
+          <div class="col-md-5">
+            
+              <p><h3>AnyDesk</h3><img src="imagens/icones/anydesk_icon.png" width="40" height="40"><a href="utilitarios/AnyDesk.exe">clique aqui para baixar o AnyDesk</a><br><br>
+        <h3>Notepad++</h3><img src="imagens/icones/notepad_icon.png" width="40" height="40"><a href="utilitarios/notepad_32.exe">clique aqui para baixar o Notepad++ versão 32 bits</a><br>
+        <img src="imagens/icones/notepad_icon.png" width="40" height="40"><a href="utilitarios/notepad_64.exe">clique aqui para baixar o Notepad++ versão 64 bits</a><br><br>
+        <h3>Netbeans</h3><img src="imagens/icones/netbeans_icon.png" width="40" height="40"><a href="utilitarios/netbeans.exe">clique aqui para baixar o Netbeans na versão 8.2</a><br><br>
+        <h3>Pivot Animator</h3><img src="imagens/icones/pivot_icon.png" width="40" height="40"><a href="utilitarios/pivot.exe">clique aqui para baixar o Pivot Animator</a><br><br></p>
+        <h3>Microsoft Teams</h3><img src="imagens/icones/teams_icon.png" width="50" height="40"><a href="utilitarios/teams.exe">clique aqui para baixar o Microsoft Teams</a><br><br>    
+          </div>
+          <div class="col-md-5">
+            
+            <p><h3>Postman</h3><img src="imagens/icones/postman_icon.png" width="37" height="37"><a href="utilitarios/postman_32.exe">clique aqui para baixar o Postman versão 32 bits</a><br>
+        <img src="imagens/icones/postman_icon.png" width="37" height="37"><a href="utilitarios/postman_64.exe">clique aqui para baixar o Postman versão 64 bits</a><br><br>
+        <h3>PostgreSQL</h3><img src="imagens/icones/postgree_icon.png" width="40" height="40"><a href="utilitarios/postgre_64.exe">clique aqui para baixar o PostgreSQL versão 64 bits</a><br>
+        <img src="imagens/icones/postgree_icon.png" width="40" height="40"><a href="utilitarios/postgre_86.exe">clique aqui para baixar o PostgreSQL versão 86 bits</a><br><br>
+	      <h3>Java Development Kit</h3><img src="imagens/icones/jdk_icon.png" width="40" height="40"><a href="utilitarios/jdk_64.exe">clique aqui para baixar o JDK versão 64 bits</a><br>
+	      <img src="imagens/icones/jdk_icon.png" width="40" height="40"><a href="utilitarios/jdk_86.exe">clique aqui para baixar o JDK versão x86 bits</a><br><br>
+        <h3>brModelo</h3><img src="imagens/icones/brmodelo_icon.svg" width="35" height="35"><a href="utilitarios/brmodelo.exe">clique aqui para baixar o brModelo</a></p>
+            
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
+
+    </main>
+  </div>     
+     <div id="rodape">
+     </div>
+
+     <script>
+       document.getElementById('rodape').innerHTML = retornar_rodape();
+     </script>
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "shortcut icon" type = "imagem/x-icon" href = "imagens/icon_logo.ico">
+        <title>E. E. Dr. Mitsusada Umetani - Plano de Curso</title>
+
+        <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/sweetalert2.css" rel="stylesheet" type="text/css"/>
+
+    <!-- scripts -->
+    <script src="js/menu.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/sweetalert2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+    <script>document.write('<link href="css/menu.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<link href="css/global.css?v=' + data_atual + '" rel="stylesheet" />');</script>
+    <script>document.write('<script src="js/menu.js?v=' +data_atual + '"><\/script>');</script>
+
+    </head>
+    <body class="animate__animated animate__fadeInDownBig">
+
+        <div id="navbar">
+        </div>
+
+        <div class="div_fundo">
+        </div>
+
+         <script>
+           document.getElementById('navbar').innerHTML = retornar_navbar();
+         </script>
+
+            <iframe src="pdf/plano_de_curso.pdf" style="position: fixed;height: 600px;width: 100%;"  scrolling="auto"></iframe>
+
+        <div id="rodape">
+        </div>
+        <script>
+          document.getElementById('rodape').innerHTML = retornar_rodape();
+        </script>
+
+    </body>
+</html>
